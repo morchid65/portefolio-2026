@@ -91,7 +91,3 @@ CREATE TABLE projects (
 - Filtrage des projets par état ou catégorie
 - Interface d’édition/suppression des projets
 - Version mobile responsive
-
----
-
-Tu veux que je t’aide à générer une bannière SVG pour ton portfolio, ou à rédiger une version anglaise du README pour GitHub international ? Je peux te booster ça en mode vitrine pro 🌍🔥
