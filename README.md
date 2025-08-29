@@ -1,3 +1,7 @@
+![Portfolio de Jebril](portefolio-2026.gif)
+
+---
+
 # 📁 Portfolio de Jebril
 
 Bienvenue dans mon portfolio personnel, développé en PHP, HTML, CSS et MySQL. Ce projet regroupe mes créations web, mes outils, mes expérimentations et mes projets d’apprentissage. Il est entièrement dynamique et administrable via une interface d’ajout de projets.
