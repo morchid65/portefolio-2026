@@ -1,34 +1,98 @@
-<div class="banniere">
-  <img src="portefolio-2026.gif" alt="Portfolio de Jebril">
-</div>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio de Jebril</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0f0f0f;
+      color: #00ffcc;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
 
-<style>
-.banniere img {
-  width: 70%;
-  max-width: 800px;
-  animation: pulse 3s infinite;
-}
+    .banniere {
+      text-align: center;
+      padding: 40px;
+      animation: pulse 4s infinite;
+    }
 
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.02); opacity: 0.9; }
-  100% { transform: scale(1); opacity: 1; }
-}
-</style>
-<script>
-const text = "Portfolio de Jebril";
-let i = 0;
-function typeWriter() {
-  if (i < text.length) {
-    document.getElementById("titre").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, 100);
-  }
-}
-window.onload = typeWriter;
-</script>
+    .banniere img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffcc55;
+      margin-bottom: 20px;
+    }
 
-<h1 id="titre"></h1>
+    #titre {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      color: #00ffcc;
+    }
+
+    .icones {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .icon {
+      font-size: 2em;
+      animation: blink 1.5s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banniere">
+    <!-- Ton image GIF animée -->
+    <img src="portefolio-2026.gif" alt="Portfolio de Jebril">
+
+    <!-- Texte animé -->
+    <h1 id="titre"></h1>
+
+    <!-- Icônes tech -->
+    <div class="icones">
+      <span class="icon">&lt;/&gt;</span>
+      <span class="icon">&#128187;</span>
+      <span class="icon">&#9881;</span>
+    </div>
+  </div>
+
+  <script>
+    const text = "Portfolio de Jebril";
+    let i = 0;
+    function typeWriter() {
+      if (i < text.length) {
+        document.getElementById("titre").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 100);
+      }
+    }
+    window.onload = typeWriter;
+  </script>
+
+</body>
+</html>
+
 
 ---
 
