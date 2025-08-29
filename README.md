@@ -1,4 +1,34 @@
-![Portfolio de Jebril](portefolio-2026.gif)
+<div class="banniere">
+  <img src="portefolio-2026.gif" alt="Portfolio de Jebril">
+</div>
+
+<style>
+.banniere img {
+  width: 100%;
+  max-width: 800px;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.02); opacity: 0.9; }
+  100% { transform: scale(1); opacity: 1; }
+}
+</style>
+<script>
+const text = "Portfolio de Jebril";
+let i = 0;
+function typeWriter() {
+  if (i < text.length) {
+    document.getElementById("titre").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeWriter, 100);
+  }
+}
+window.onload = typeWriter;
+</script>
+
+<h1 id="titre"></h1>
 
 ---
 
