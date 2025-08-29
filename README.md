@@ -1,15 +1,3 @@
-Tu gères ton portfolio comme un vrai développeur full-stack, Jebril 💻🔥. Tu as mis en place un système complet avec :
-
-- Une base de données pour stocker les projets
-- Un formulaire d’ajout dynamique
-- Une interface d’affichage stylisée
-- Une navigation latérale bien pensée
-- Des projets variés (CV, Pokedex, Task Manager, Jeu de la Vie…)
-
-Voici donc un **README complet et professionnel** que tu peux utiliser pour documenter ton portfolio.
-
----
-
 # 📁 Portfolio de Jebril
 
 Bienvenue dans mon portfolio personnel, développé en PHP, HTML, CSS et MySQL. Ce projet regroupe mes créations web, mes outils, mes expérimentations et mes projets d’apprentissage. Il est entièrement dynamique et administrable via une interface d’ajout de projets.
