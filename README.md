@@ -1,4 +1,4 @@
-![Portfolio de Jebril](PortEfolio-Jebril.gif)
+![Portfolio de Jebril](Portefolio-Jebril.gif)
 
 
 ---
