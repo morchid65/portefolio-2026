@@ -4,7 +4,7 @@
 
 <style>
 .banniere img {
-  width: 100%;
+  width: 70%;
   max-width: 800px;
   animation: pulse 3s infinite;
 }
